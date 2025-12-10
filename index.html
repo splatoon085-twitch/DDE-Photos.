@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DDE-Photos.com</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-black text-slate-100 font-sans">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 w-full backdrop-blur bg-black/80 border-b border-slate-800 shadow-lg">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-2">
+        <div class="h-9 w-9 rounded-full bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center text-white font-bold shadow-md">D</div>
+        <span class="font-semibold tracking-tight text-lg hover:text-purple-400 transition-colors">DDE-Photos.com</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="#home" class="text-sm hover:text-purple-400 transition-colors">Home</a>
+        <a href="#about" class="text-sm hover:text-purple-400 transition-colors">About Me</a>
+        <a href="#photos" class="text-sm hover:text-purple-400 transition-colors">My Photos</a>
+        <a href="#social" class="text-sm hover:text-purple-400 transition-colors">My Social Media</a>
+        <a href="#blog" class="text-sm hover:text-purple-400 transition-colors">Blog</a>
+        <a href="#contact" class="text-sm hover:text-purple-400 transition-colors">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="mx-auto max-w-6xl px-4 py-40 grid lg:grid-cols-2 gap-16 items-center">
+    <div class="space-y-8">
+      <h1 class="text-6xl md:text-7xl font-extrabold leading-tight tracking-tight bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+        Welcome to DDE-Photos.com
+      </h1>
+      <p class="text-slate-300 text-lg">Professional and artistic photography. Capture your moments with style and creativity. My gallery features unique shots that tell a story and evoke emotions.</p>
+      <p class="text-slate-400 text-lg">Explore my work, learn about my journey, and follow me on social media to keep up with the latest updates and exclusive content.</p>
+      <p class="text-slate-500 text-base leading-relaxed">Every picture is a canvas where light, colors, and emotions meet. Here you’ll find a blend of portrait, street, and abstract photography, curated to show not just images but experiences.</p>
+    </div>
+    <!-- Featured Image -->
+    <div class="bg-gradient-to-br from-slate-800 to-slate-900 rounded-3xl shadow-2xl border border-slate-700 p-8 md:p-12">
+      <img src="fotos/featured.jpg" alt="Featured Photo"
+           class="rounded-2xl w-full h-auto object-cover shadow-lg">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="mx-auto max-w-6xl px-4 py-40">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10 text-purple-400">About Me</h2>
+    <div class="space-y-6 max-w-4xl">
+      <p class="text-slate-300 text-lg leading-relaxed">Hi! I’m <strong>Daniel</strong>, the creator of DDE-Photos.com. Photography has been my passion since I was young, and I love capturing unique perspectives that highlight emotion, energy, and style.</p>
+      <p class="text-slate-400 text-lg leading-relaxed">Over the years, I’ve worked with different people, locations, and ideas. Every photo is more than an image; it’s a memory, a story, and an expression of creativity.</p>
+      <p class="text-slate-500 text-lg leading-relaxed">Beyond photography, I’m passionate about exploring new cultures, traveling, and connecting with people. These experiences inspire my work and add depth to the stories I capture.</p>
+    </div>
+  </section>
+
+  <!-- Photos -->
+  <section id="photos" class="mx-auto max-w-6xl px-4 py-40">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10 text-purple-400">My Photos</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <img src="fotos/foto1.jpg" alt="Photo 1" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+      <img src="fotos/foto2.jpg" alt="Photo 2" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+      <img src="fotos/foto3.jpg" alt="Photo 3" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+      <img src="fotos/foto4.jpg" alt="Photo 4" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+      <img src="fotos/foto5.jpg" alt="Photo 5" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+      <img src="fotos/foto6.jpg" alt="Photo 6" class="rounded-2xl h-56 w-full object-cover border border-slate-700 hover:scale-105 transform transition duration-300 shadow-lg">
+    </div>
+  </section>
+
+  <!-- Social -->
+  <section id="social" class="mx-auto max-w-6xl px-4 py-40">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10 text-purple-400">My Social Media</h2>
+    <p class="text-slate-300 text-lg leading-relaxed max-w-4xl">Social media is where I share behind-the-scenes moments, previews of upcoming projects, and connect with people who enjoy my work.</p>
+    <div class="flex gap-8 mt-10">
+      <a href="https://www.tiktok.com/@project86._?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 rounded-xl border border-slate-600 px-6 py-3 transition-transform transform hover:scale-110 hover:text-pink-500 hover:border-pink-500 shadow-md"><i class="fab fa-tiktok h-6 w-6"></i> TikTok</a>
+      <a href="https://www.instagram.com/_ddavidson._" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 rounded-xl border border-slate-600 px-6 py-3 transition-transform transform hover:scale-110 hover:text-purple-500 hover:border-purple-500 shadow-md"><i class="fab fa-instagram h-6 w-6"></i> Instagram</a>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog" class="mx-auto max-w-6xl px-4 py-40">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10 text-purple-400">Blog</h2>
+    <div class="space-y-10">
+      <article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-purple-300">Behind the Lens</h3>
+        <p class="text-slate-400 text-lg leading-relaxed">Stories and thoughts about my photography process, inspiration, and lessons I’ve learned along the way.</p>
+      </article>
+      <article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-purple-300">Top Locations</h3>
+        <p class="text-slate-400 text-lg leading-relaxed">A guide to some of my favorite spots for capturing unique and breathtaking photos.</p>
+      </article>
+      <article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-purple-300">Gear & Tips</h3>
+        <p class="text-slate-400 text-lg leading-relaxed">Reviews of my photography equipment, plus tips and tricks that can help you improve your own shots.</p>
+      </article>
+
+      <!-- Vlog / RAW vs JPEG combined post (added) -->
+      <article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300">
+        <h3 class="text-2xl font-semibold mb-3 text-purple-300">RAW vs JPEG: What I Learned</h3>
+
+        <p class="text-slate-400 text-lg leading-relaxed mb-4">
+          After watching the video, three points really stood out to me. First, RAW files keep all the information from the camera sensor without compression or automatic adjustments. Second, JPEG files come already processed by the camera with contrast, saturation, and sharpness applied. And third, RAW gives you much more flexibility when editing, while JPEG is more limited because some information is lost during compression.
+        </p>
+
+        <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">RAW vs JPEG: The Main Differences</h4>
+        <ul class="list-disc list-inside text-slate-400 text-lg leading-relaxed mb-4">
+          <li><strong>Quality:</strong> RAW keeps the maximum detail and dynamic range, while JPEG loses some quality due to compression.</li>
+          <li><strong>File size:</strong> RAW files are much larger and take up more storage space, while JPEG files are lighter and easier to manage.</li>
+          <li><strong>Editing:</strong> RAW allows you to adjust exposure, colors, highlights, and shadows without losing quality, whereas JPEG starts to break down quickly if you edit it too much.</li>
+        </ul>
+
+        <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">When to Choose RAW or JPEG</h4>
+        <p class="text-slate-400 text-lg leading-relaxed mb-4">
+          Photographers usually choose RAW when quality really matters. For example, at a wedding, during a professional photoshoot, or when photographing a landscape where recovering detail in highlights and shadows is important. On the other hand, JPEG is the better option for more casual or fast situations—like taking photos at a football game with friends or snapping something for social media—where smaller file size and speed are more useful than maximum quality.
+        </p>
+
+        <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">My Editing Experience</h4>
+        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+          When I edited both formats, the difference was obvious. With RAW, I had a lot more freedom to fix exposure, colors, and shadows without damaging the picture. With JPEG, as soon as I tried stronger edits, the image started to lose quality, became noisy, or looked more artificial.
+        </p>
+
+        <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">RAW vs JPEG: My Notes from the Video</h4>
+
+        <h5 class="text-lg font-semibold text-purple-300 mt-4 mb-2">1. Three key facts</h5>
+        <ul class="list-disc list-inside text-slate-400 text-lg leading-relaxed mb-4">
+          <li>RAW files keep all the information from the camera sensor without compression or automatic adjustments.</li>
+          <li>JPEG files come already processed by the camera with things like contrast, saturation, and sharpness.</li>
+          <li>RAW gives you way more flexibility when editing, while JPEG is more limited because some information is lost during compression.</li>
+        </ul>
+
+        <h5 class="text-lg font-semibold text-purple-300 mt-4 mb-2">2. Main differences between RAW and JPEG</h5>
+        <ul class="list-disc list-inside text-slate-400 text-lg leading-relaxed mb-4">
+          <li><strong>Quality:</strong> RAW keeps the maximum detail and dynamic range; JPEG loses some quality because of compression.</li>
+          <li><strong>File size:</strong> RAW takes up much more space on your card or computer; JPEG is much lighter.</li>
+          <li><strong>Editing:</strong> RAW can be adjusted deeply (exposure, colors, highlights, shadows) without much quality loss, while JPEG degrades quickly if you push the edits too far.</li>
+        </ul>
+
+        <h5 class="text-lg font-semibold text-purple-300 mt-4 mb-2">3. When to choose each format (with examples)</h5>
+        <ul class="list-disc list-inside text-slate-400 text-lg leading-relaxed mb-4">
+          <li><strong>RAW:</strong> when quality really matters, for example during a wedding, a professional photoshoot, or a landscape where you want to recover details in highlights and shadows.</li>
+          <li><strong>JPEG:</strong> in more casual or quick situations, like a football game with friends or photos for social media, where smaller file size and speed are more important.</li>
+        </ul>
+
+        <h5 class="text-lg font-semibold text-purple-300 mt-4 mb-2">4. Differences while editing the images</h5>
+        <p class="text-slate-400 text-lg leading-relaxed">
+          The difference was obvious: with RAW I had a lot more freedom to fix exposure, colors, and shadows without ruining the picture. With JPEG, as soon as I tried to make stronger edits, the image lost quality, got noisy, or looked more artificial.
+        </p>
+      </article>
+      <article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300">
+  <h3 class="text-2xl font-semibold mb-3 text-purple-300">Scene Analysis – Gran Turismo</h3>
+  <img src="fotos/granturismo.jpg" alt="Gran Turismo Scene" class="rounded-2xl w-full h-auto object-cover shadow-lg mb-6">
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    One of my favorite scenes from <em>Gran Turismo</em> is the sequence where Jann Mardenborough drives in his first professional race after being selected from the GT Academy. Visually, this scene perfectly captures both the excitement and tension of a gamer stepping into the real racing world.
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    The framing plays a huge role in showing Jann’s emotional state. Inside the cockpit, the camera is extremely tight on his face, emphasizing his concentration and nervousness. The close-ups make the viewer feel trapped in the car with him, hearing every sound and vibration. In contrast, when the camera cuts outside the car, the frame suddenly opens up — wide shots of the track and cars speeding by highlight how small and vulnerable he is in that massive, dangerous environment.
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    The composition often places Jann in the center, surrounded by blurs of speed and chaos. This visually represents how he’s trying to stay focused while everything around him is moving at high intensity. The lighting also shifts depending on his emotions — inside the car it’s darker, full of metallic reflections, while exterior shots are bright and sunlit, symbolizing the world he’s trying to conquer.
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    The camera movement is what gives the scene its power. The film constantly switches between smooth drone shots, fast tracking shots, and shaky in-car footage. This dynamic mix mirrors the rhythm of the race itself — moments of calm precision interrupted by bursts of danger. One of the most effective movements is when the camera follows the car from behind and then swings around to the front during an overtaking moment, making the audience feel the thrill and risk of racing firsthand.
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed">
+    Overall, the visual language of this scene turns what could be a simple race into a story of transformation and courage. Through framing, composition, and movement, we don’t just watch Jann race — we feel his fear, excitement, and determination.
+  </p>
+</article>
+<!-- Blog Post: Sound Design in Gran Turismo -->
+<article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300 mt-10">
+  <h3 class="text-2xl font-semibold mb-3 text-purple-300">Sound Design in Gran Turismo</h3>
+  
+  <!-- Primera imagen -->
+  <img src="fotos/granturismo-sound.jpg" alt="Gran Turismo Final Race" class="rounded-2xl w-full h-auto object-cover shadow-lg mb-6">
+
+  <h4 class="text-xl text-slate-200 font-semibold mb-2">Step 1: One–Two Sentence Response</h4>
+  <p class="text-slate-400 text-lg leading-relaxed mb-6">
+    I chose the final race scene from <em>Gran Turismo</em> (2023). The sounds include roaring engines, gear shifts, screeching tires, the crowd cheering, tense background music, and short bursts of dialogue through radio communication. These elements build excitement and tension, matching the emotional intensity of the moment. Without the sound, the scene would lose its adrenaline and emotional payoff. The blend of engine roars and music makes this scene unforgettable.
+  </p>
+
+  <h4 class="text-xl text-slate-200 font-semibold mb-2">Part 2: Personal Reflection</h4>
+  <p class="text-slate-400 text-lg leading-relaxed">
+    I chose the final race scene from <em>Gran Turismo</em> because its sound design captures exactly what makes motorsport so thrilling. Every rev of the engine, tire screech, and gear shift is perfectly balanced with the soundtrack, creating a mix of realism and cinematic tension. The radio chatter between Jann and his team adds a personal touch, reminding us that behind all the noise, there’s a real person fighting for his dream.
+  </p>
+  <p class="text-slate-400 text-lg leading-relaxed mt-4 mb-6">
+    What stands out the most is how the sound builds intensity—the deeper engine growls, the rising music, and the sudden silences before key turns make you feel like you’re in the driver’s seat. If the sound were simplified or removed, the race would lose its emotional power and sense of speed. This scene’s sound design transforms it from just a car race into a full emotional experience, showing how passion, risk, and victory can all be felt through sound alone.
+  </p>
+
+  <!-- Segunda imagen -->
+  <img src="fotos/granturismo-race.jpg" alt="Gran Turismo Race Scene" class="rounded-2xl w-full h-auto object-cover shadow-lg">
+</article>
+<!-- Green Screen Basics Section -->
+<article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-green-500/20 transition duration-300 mt-10">
+
+  <h3 class="text-2xl font-semibold mb-6 text-green-400">Green Screen Basics: How to Make Your Shots Look Awesome</h3>
+
+  <!-- 3 imágenes horizontales -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+    <img src="fotos/green1.jpg" alt="Green Screen 1" class="rounded-2xl w-full h-48 object-cover shadow-lg border border-slate-700">
+    <img src="fotos/green2.jpg" alt="Green Screen 2" class="rounded-2xl w-full h-48 object-cover shadow-lg border border-slate-700">
+    <img src="fotos/green3.jpg" alt="Green Screen 3" class="rounded-2xl w-full h-48 object-cover shadow-lg border border-slate-700">
+  </div>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    You got a green screen and you’re trynna figure out how to not mess the whole thing up?  
+    Don’t stress, it’s honestly pretty simple once you understand the main basics
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    First thing, lighting is the boss here your green screen needs to be flat clean and lit evenly.  
+    no wrinkles, no shadows, because even a tiny dark spot can ruin the key, later leave a bit of space  
+    between you and the screen too otherwise you get that ugly green outline on your hair or shoulders  
+    and it looks super fake
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    After that make sure you are lit separately from the screen, you don’t want the green bouncing  
+    onto your skin or clothes, keep the lighting soft and even and if you can use a decent camera,  
+    shaky low res footage makes keying way harder than it needs to be
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    Then you just need the right tools tons of programs can remove green backgrounds adobe premiere  
+    after effects resolve even free stuff like gimp or davinci resolve all do the job pretty well, 
+    but i personally used cap cut since it's easier for starters
+  </p>
+
+  <p class="text-slate-400 text-lg leading-relaxed">
+    Once you get these basics down you can start doing whatever you want switching backgrounds  
+    putting yourself on a beach, space, a movie scene, anything green screen feels like magic  
+    when it actually works right
+  </p>
+
+</article>
+<article class="bg-gradient-to-br from-slate-800 to-slate-900 p-8 rounded-2xl border border-slate-700 shadow-md hover:shadow-purple-500/20 transition duration-300 mt-10">
+  <h3 class="text-2xl font-semibold mb-3 text-purple-300">Album Review Juice WRLD Goodbye & Good Riddance</h3>
+
+  <img src="fotos/juicewrld-goodbye.jpg" alt="Juice WRLD - Goodbye & Good Riddance" class="rounded-2xl w-full h-auto object-cover shadow-lg mb-6">
+
+  <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">1 Basic Album Info</h4>
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    the artist is Juice WRLD and the album is Goodbye & Good Riddance dropped in 2018 mostly emo rap and melodic trap that sad hip hop vibe he’s known for
+  </p>
+
+  <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">2 Overall Impression</h4>
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    the whole album feels like Juice just dumping all his heartbreak and mistakes into songs you can tell he recorded a lot while really hurting it sounds super raw and honest nothing overproduced just straight emotion turned into catchy melodies what makes it stand out is that it actually makes you feel what he felt without any fluff just real vibes
+  </p>
+
+  <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">3 Audio Production Analysis</h4>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Instrumentation / Digital Sound Design</h5>
+  <p class="text-slate-400 text-lg leading-relaxed mb-3">
+    beats are simple soft guitars chill synths clean drums nothing crowded everything leaves room for his voice 808s hit hard hi hats do the classic trap bounce loops are clean and minimal
+  </p>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Mixing & Audio Quality</h5>
+  <p class="text-slate-400 text-lg leading-relaxed mb-3">
+    vocals sit really forward like he’s talking right next to you a little reverb gives that lonely night vibe lows are tight highs are crisp mix is balanced even if a bit rough but it fits the mood
+  </p>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Loudness & Dynamics</h5>
+  <p class="text-slate-400 text-lg leading-relaxed mb-3">
+    it’s compressed like most trap stuff but not totally squashed there are softer singing moments so tracks breathe a bit
+  </p>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Sound Effects / Noise Floor</h5>
+  <p class="text-slate-400 text-lg leading-relaxed mb-3">
+    not many fancy effects just little reverb tiny delay sometimes maybe slight distortion recordings are clean and the noise floor is low
+  </p>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Rhythm & Pacing</h5>
+  <p class="text-slate-400 text-lg leading-relaxed mb-3">
+    most songs are mid tempo trap but melodies shift enough to keep it from feeling samey lots of triplet hi hats simple rhythms that just work
+  </p>
+
+  <h4 class="text-xl font-semibold text-purple-400 mt-4 mb-2">4 Personal Response</h4>
+  <p class="text-slate-400 text-lg leading-relaxed mb-4">
+    this album hits like thinking about your ex at 2am when you know you shouldn’t but you still do it’s emotional but still catchy so you end up vibing while lowkey dying inside if you like emotional rap or artists like Trippie Redd Lil Peep or Kid Laroi you’d probably love it
+  </p>
+
+  <h5 class="text-lg font-semibold text-purple-300 mt-2 mb-1">Standout Tracks</h5>
+  <ul class="list-disc list-inside text-slate-400 text-lg leading-relaxed">
+    <li>All Girls Are The Same</li>
+    <li>Lucid Dreams</li>
+    <li>Lean Wit Me</li>
+    <li>Used To</li>
+  </ul>
+</article>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mx-auto max-w-6xl px-4 py-40">
+    <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-10 text-purple-400">Contact</h2>
+    <p class="text-slate-300 text-lg leading-relaxed max-w-3xl mb-8">Do you want to collaborate, book a session, or simply say hello? Feel free to reach out.</p>
+    <form class="grid gap-6 max-w-2xl">
+      <input type="text" placeholder="Your Name" required class="rounded-xl bg-slate-800 border border-slate-600 px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+      <input type="email" placeholder="Your Email" required class="rounded-xl bg-slate-800 border border-slate-600 px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+      <textarea rows="5" placeholder="Your Message" required class="rounded-xl bg-slate-800 border border-slate-600 px-4 py-3 text-slate-200 focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+      <button type="submit" class="rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 font-semibold text-white hover:opacity-90 shadow-md">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm bg-black/80">
+    © 2025 DDE-Photos.com — All rights reserved. Built with passion and creativity.
+  </footer>
+
+</body>
+</html>
